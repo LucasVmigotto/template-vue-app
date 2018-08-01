@@ -1,0 +1,48 @@
+{
+  "name": "template-vue-app",
+  "version": "0.1.0",
+  "description": "A Vue template project",
+  "author": {
+    "name": "Lucas Vidor Migotto",
+    "email": "lucasmigotto@outlook.com"
+  },
+  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "Vue",
+    "Vuetify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasVmigotto/template-vue-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LucasVmigotto/template-vue-app/issues"
+  },
+  "homepage": "https://github.com/LucasVmigotto/template-vue-app#readme",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "material-design-icons": "^3.0.1",
+    "material-design-icons-iconfont": "^3.0.3",
+    "vue": "^2.5.16",
+    "vuetify": "^1.1.9",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli": "^3.0.0-rc.10",
+    "@vue/cli-plugin-babel": "^3.0.0-rc.10",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.10",
+    "@vue/cli-service": "^3.0.0-rc.10",
+    "@vue/eslint-config-standard": "^3.0.0-rc.10",
+    "eslint": "^5.2.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.16"
+  }
+}

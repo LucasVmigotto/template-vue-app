@@ -1,0 +1,29 @@
+version: '2'
+
+services:
+  app:
+    build:
+      context: ./docker
+      args:
+      - http_proxy
+      - https_proxy
+      - no_proxy
+    command: npm start
+    tty: true
+    working_dir: /app
+    environment:
+    - http_proxy
+    - https_proxy
+    - no_proxy
+    - PORT
+    - LOCAL_USER_ID
+    ports:
+    - 4001:4001
+    volumes:
+    - .:/app
+    # networks:
+    # - template-graphql-api
+
+# networks:
+  # template-graphql-api:
+    # external: true
